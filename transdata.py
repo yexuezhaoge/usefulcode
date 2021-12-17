@@ -8,7 +8,7 @@ import cv2
 from PIL import Image, ImageDraw
  
 #the path you want to save your results for coco to voc
-savepath="/home/pascal/pascal/darknet/data/transdata/train20/"  #保存提取类的路径,我放在同一路径下
+savepath="/home/pascal/pascal/darknet/data/transdata/train20/"  #保存提取类的路径,我放在同一路径下 coco to txt
 img_dir=savepath+'images/'
 anno_dir=savepath+'Annotations/'
 datasets_list=['train2014', 'val2014']
